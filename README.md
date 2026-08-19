@@ -12,6 +12,4 @@ Exercises are organised by topic and gradually increase in complexity. Each exer
 
 ## Topics
 
-### C# Fundamentals
-
-- [Basic String Formatting](./01-fundamentals/basic_string_formatting)
+- C# Fundamentals
