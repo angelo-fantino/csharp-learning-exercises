@@ -13,3 +13,8 @@ Exercises are organised by topic and gradually increase in complexity. Each exer
 ## Topics
 
 - C# Fundamentals
+
+## Learning Resources
+
+- Microsoft Learn
+- freeCodeCamp - Foundational C# with Microsoft Certification
