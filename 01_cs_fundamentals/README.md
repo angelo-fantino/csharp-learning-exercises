@@ -19,6 +19,7 @@ learning the fundamentals of C#.
 
 ## Projects
 
+- projects_nested_iteration_fraudulent_order
 - projects_student_gpa_calculator
 - projects_student_grade_calculator
 - basic_string_formatting
