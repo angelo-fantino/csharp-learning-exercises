@@ -4,6 +4,33 @@
     {
         static void Main(string[] args)
         {
+            /*
+            The following code reverse the letters from the
+            phrase and count the number of the o repeated in
+            the whole sentence, then prints the result to the console.
+            */
+
+            string mainMessage = "The quick brown fox jumps over the lazy dog.";
+
+            char[] message = mainMessage.ToCharArray();
+            Array.Reverse(message);
+            
+            int countLetter = 0;
+
+            foreach (char letter in message)
+            {
+                if (letter == 'o')
+                {
+                    countLetter++;
+                }
+            }
+
+            string newMessage = new String(message);
+
+            Console.WriteLine(newMessage);
+            Console.WriteLine($"'o' appears {countLetter} times.");
+
+
             /*              
             Use code comments to leave meaningful notes to yourself about the problem your code solves.
             Don't use code comments that explain how C# or the .NET Class Library works.
